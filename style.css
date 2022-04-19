@@ -1,0 +1,7 @@
+.dino{
+    height: 60px;
+    width: 60px;
+    bottom: 0;
+    position: absolute;
+    background: green;
+}
