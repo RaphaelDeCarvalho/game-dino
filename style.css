@@ -1,15 +1,18 @@
+body {
+    background: #fafafa;
+}
 .dino {
     height: 60px;
     width: 60px;
     bottom: 0;
+    background-image: url(dino.png);
     position: absolute;
-    background: green;
 }
 
 .cactus{
     height: 60px;
     width: 60px;
     position: absolute;
-    background: red;
+    background-image: url(cactus.png);
     bottom: 0;
 }
