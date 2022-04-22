@@ -43,7 +43,7 @@ function jump (){
 
 function createCactus(){
     const cactus = document.createElement('div');
-    let cactusPosition = 1100;
+    let cactusPosition = 1500;
     let randomTime = Math.random() * 6000;
 
 
@@ -61,7 +61,7 @@ function createCactus(){
         cactusPosition -= 10;
         cactus.style.left = cactusPosition + 'px';
         };
-    }, 15);
+    }, 10);
 
     setTimeout(createCactus, randomTime);
 }
