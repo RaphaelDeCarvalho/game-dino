@@ -1,5 +1,6 @@
 body {
     background: #fafafa;
+    overflow: hidden;
 }
 .dino {
     height: 60px;
