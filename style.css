@@ -17,3 +17,29 @@ body {
     background-image: url(cactus.png);
     bottom: 0;
 }
+
+.game-over{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666565;
+    margin-top: 150px;
+}
+
+@keyframes sliderLeft {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: sliderLeft 800s infinite linear;
+    width: 100%;
+    height: 200px;
+}
