@@ -61,7 +61,7 @@ function createCactus(){
         cactusPosition -= 10;
         cactus.style.left = cactusPosition + 'px';
         };
-    }, 10);
+    }, 15);
 
     setTimeout(createCactus, randomTime);
 }
